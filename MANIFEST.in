@@ -1,0 +1,6 @@
+include debug_config/*/*.yaml
+include debug_config/*/*/*.yaml
+include debug_config/*/*/*/*.yaml
+include debug_config/*/*/*/*/*.yaml
+include debug_config/*/*/*/*/*/*.yaml
+

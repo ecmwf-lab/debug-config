@@ -1,0 +1,6 @@
+defaults:
+     - platform: hello
+     - _self_
+
+
+t: 1
