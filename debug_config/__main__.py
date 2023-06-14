@@ -17,6 +17,8 @@ from omegaconf import DictConfig, OmegaConf
 def main(cfg: DictConfig) -> None:
     print(sys.argv)
     print(OmegaConf.to_yaml(cfg))
+    if cfg.zarr_uri is not None:
+        print(zarr_open(cfg.zarr_uri))
 
 
 def open_directory(uri):

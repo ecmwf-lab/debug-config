@@ -2,5 +2,11 @@ defaults:
      - platform: hello
      - _self_
 
-
+zarr_uri: null
 t: 1
+
+
+# hydra:
+#   output_subdir: null
+#   job_logging: disabled
+#   hydra_logging: disabled
