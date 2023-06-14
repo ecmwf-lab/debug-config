@@ -43,6 +43,8 @@ setuptools.setup(
     include_package_data=True,
     install_requires=[
         "hydra-core",
+        "s3fs",
+        "zarr",
     ],
     zip_safe=True,
     keywords="tool",
